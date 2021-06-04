@@ -3,4 +3,68 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*Cabeçalho*/
+header{
+    padding: 20px 2%;
+    background-color: #9ba000;
+}
+header a{color: #F2ECE4;}
+header i{
+    margin-left: 6px;
+    color: #565902;
+}
+
+/*Apresentação*/
+.apresentacao{
+    display: flex;
+    padding: 5% 2%;
+    background-image: url(../img/apresentacao.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 500px;
+}
+.apresentacao .info h1{
+    font-size: 2.5rem;
+    color: #F2ECE4;
+}
+.apresentacao .info h3{
+    font-size: 1.5rem;
+    color: #F2ECE4;
+    margin-bottom: 5px;
+}
+.apresentacao .info hr{
+    width: 100px;
+    height: 2px;
+    border: none;
+    background-color: #BFB524;
+    margin-bottom: 20px;
+}
+
+/*Conheça*/
+.conheca{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 2%;
+    background-color: #F2F2F2;
+}
+.conheca h1{
+    font-size: 1.8rem;
+    color: #565902;
+    margin-bottom: 5px;
+}
+.conheca hr{
+    width: 50px;
+    height: 4px;
+    border: none;
+    background-color: #565902;
 }
