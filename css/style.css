@@ -15,7 +15,10 @@ header{
     padding: 20px 2%;
     background-color: #9ba000;
 }
-header a{color: #F2ECE4;}
+header a{
+    color: #F2ECE4;
+    font-size: 1.5rem;
+}
 header i{
     margin-left: 6px;
     color: #565902;
